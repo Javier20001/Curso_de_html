@@ -1,0 +1,35 @@
+/*-------------Selectores--------------
+sentencia:
+selector{
+    propiedad:valor
+}*/
+
+/*Universal
+* { /*selecciona todas las etiquetas
+    color: red;
+}*/
+
+/*De tipo*/
+h1 {/*selecciona todas las etiquetas de un solo tipo(h1) */
+    color : blue;
+}
+/*clases*/
+.h2_index{ /*selecciona a las etiquetas por su clase indentificadora*/
+    color : green;
+}
+/*ID*/
+#id_del_parrafo{/*selecciona por las etiquetas qeu tengan este id*/
+    color:  rgb(89, 213, 0);
+}
+/*Por Atributo*/
+[cambioDeColor="obvioPa"]{/*selecciona por atributo="valor"*/
+    color: blueviolet;
+}
+/*Descendiente*/
+h2 p b small {/*selecciona por descendencia , esta puede ser tan largo como gusten */
+    color: rgb(243, 138, 0);
+}
+/*Pseudo_codigo*/
+.pseudo_codigo b:hover{/*hace cambios a travez de eventos*/
+    color: brown;
+}
